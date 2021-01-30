@@ -12,14 +12,14 @@ export class StoreComponent implements OnInit {
   private collapsed = true;
   orderFinished = false;
 
-  // @ViewChild('productsC')
-  // productsC: ProductsComponent;
+  @ViewChild('productsC')
+  productsC: ProductsComponent;
 
-  // @ViewChild('shoppingCartC')
-  // shoppingCartC: ShoppingCartComponent;
+  @ViewChild('shoppingCartC')
+  shoppingCartC: ShoppingCartComponent;
 
-  // @ViewChild('ordersC')
-  // ordersC: OrdersComponent;
+  @ViewChild('ordersC')
+  ordersC: OrdersComponent;
 
   constructor() { }
 
@@ -40,9 +40,9 @@ export class StoreComponent implements OnInit {
 
   reset() {
       this.orderFinished = false;
-      //this.productsC.reset();
-      //this.shoppingCartC.reset();
-      //this.ordersC.paid = false;
+      this.productsC.reset();
+      this.shoppingCartC.reset();
+      this.ordersC.paid = false;
   }
 
 }
