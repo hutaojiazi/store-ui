@@ -4,6 +4,7 @@ import {StoreService} from "../services/StoreService";
 import {Subscription} from "rxjs/internal/Subscription";
 import {ProductOrders} from "../models/product-orders.model";
 import {Product} from "../models/product.model";
+import {Products} from "../models/products.model";
 
 @Component({
   selector: 'app-products',
@@ -57,8 +58,8 @@ export class ProductsComponent implements OnInit {
   loadProducts() {
       this.storeService.getAllProducts()
           .subscribe(
-              (products: any[]) => {
-                  this.products = products;
+              (data: Products) => {
+                  this.products = data.value;
                   this.products.forEach(product => {
                       this.productOrders.push(new ProductOrder(product, 0));
                   })
