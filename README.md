@@ -2,8 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.4.
 
-# npm install
-# npm start
+* npm install
+* npm start
 
 ## Development server
 
@@ -37,6 +37,6 @@ https://www.baeldung.com/spring-angular-ecommerce
 
 https://angular.io/cli
 
-# npm install --save bootstrap
-# ng n <project_name>
-# ng g c <component_name>
+* npm install --save bootstrap
+* ng n <project_name>
+* ng g c <component_name>
