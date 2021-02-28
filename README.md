@@ -1,6 +1,9 @@
-# StoreUi
+# Store example (frontend part)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.4.
+
+# npm install
+# npm start
 
 ## Development server
 
@@ -29,3 +32,11 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Reference
 
 https://www.baeldung.com/spring-angular-ecommerce
+
+## Userful commands:
+
+https://angular.io/cli
+
+# npm install --save bootstrap
+# ng n <project_name>
+# ng g c <component_name>
